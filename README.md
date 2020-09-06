@@ -2,6 +2,7 @@
 
 ![OffensiveTerraform](https://img.shields.io/badge/hack-success)
 ![OffensiveTerraform](https://img.shields.io/badge/offensive-terraform-blueviolet)
+![OffensiveTerraform](https://img.shields.io/badge/aws-important)
 
 Offensive Terraform module which creates EC2 instance and reverse shell from an EC2 instance to attacker machine.
 
