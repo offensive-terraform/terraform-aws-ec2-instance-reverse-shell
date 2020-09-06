@@ -5,5 +5,5 @@ variable "subnet_id" {
 
 variable "attacker_ip" {
   type        = string
-  description = "The attacker IP to reverse shell from AWS EC2 instance."
+  description = "The attacker IP to create a reverse shell from AWS EC2 instance."
 }
