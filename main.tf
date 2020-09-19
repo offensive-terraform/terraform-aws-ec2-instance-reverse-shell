@@ -3,7 +3,7 @@ terraform {
 }
 
 resource "aws_instance" "this" {
-  ami                         = "ami-06b263d6ceff0b3dd"
+  ami                         = data.aws_ami.ubuntu.id
   instance_type               = "t2.micro"
   subnet_id                   = var.subnet_id
   iam_instance_profile        = var.iam_instance_profile
